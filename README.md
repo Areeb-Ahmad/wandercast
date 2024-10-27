@@ -18,7 +18,7 @@ _(Add screenshots here once available)_
 ## Installation
 
 ### Prerequisites
-- **Python 3.x**
+- **Python 3.7**
 - **Tkinter**: Tkinter is usually bundled with Python, but if not, you can install it via:
   ```bash
   sudo apt-get install python3-tk
