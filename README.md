@@ -14,7 +14,7 @@ A Tkinter-based desktop display application that combines a random walker animat
 
 ## Screenshots
 This is an example of the program in action:
-![WanderCast Screenshot](screenshot.jpg)
+![WanderCast Screenshot](assets/screenshot.jpg)
 
 ## Installation
 
