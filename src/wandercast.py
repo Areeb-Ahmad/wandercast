@@ -133,7 +133,7 @@ def move_walker():
 
     # Update position with boundary checks
     x = max(WALKER_RADIUS, min(x + dx, WIDTH - WALKER_RADIUS))
-    y = max(HEIGHT // 2, min(y + dy, HEIGHT - WALKER_RADIUS))
+    y = max(HEIGHT // 2 + 100, min(y + dy, HEIGHT - WALKER_RADIUS))
 
     # Call this function again after a short delay
     root.after(WALKER_SPEED, move_walker)
