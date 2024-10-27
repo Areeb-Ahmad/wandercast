@@ -29,7 +29,7 @@ _(Add screenshots here once available)_
   ```
 - **API Key** You'll need an API key from OpenWeather. Sign up for an account, create an API key, and replace the placeholder API_KEY in the code with your own.
 
-#Setup
+## Setup
 Clone this repository:
 
 ```bash
@@ -52,16 +52,16 @@ python wandercast.py
 Walker Speed: Modify WALKER_SPEED in milliseconds to control the animation speed.
 Forecast Displayed Hours: Change for hour_data in data['list'][:4] to show a different number of forecast hours.
 
-- **Code Structure** 
+### Code Structure
 ```bash
 random_color(): Generates a random color for the walker's animation.
 get_weather_forecast(): Fetches and displays the weather forecast using the OpenWeather API.
 update_datetime(): Updates the displayed date and time every second.
 move_walker(): Controls the random walker animation within screen boundaries.
 ```
-- **Contributing**
+## Contributing
 Feel free to fork this repository, submit issues, or make pull requests if you have ideas for enhancements.
 
-- **License**
+## License
 This project is licensed under the MIT License. See the LICENSE file for details.
 
