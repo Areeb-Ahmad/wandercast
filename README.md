@@ -71,5 +71,5 @@ move_walker(): Controls the random walker animation within screen boundaries.
 Feel free to fork this repository, submit issues, or make pull requests if you have ideas for enhancements.
 
 ## License
-This project is licensed under the MIT License. See the LICENSE file for details.
+This project is licensed under the GNU General Public License v3.0. See the LICENSE file for details.
 
