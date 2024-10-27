@@ -13,7 +13,7 @@ A Tkinter-based desktop display application that combines a random walker animat
 - **Fullscreen Mode**: Launches in fullscreen, making it an ideal choice for a dedicated display setup.
 
 ## Screenshots
-_(Add screenshots here once available)_
+![WanderCast Screenshot](screenshot.png)
 
 ## Installation
 
