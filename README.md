@@ -55,10 +55,17 @@ Forecast Displayed Hours: Change for hour_data in data['list'][:4] to show a dif
 ### Code Structure
 ```bash
 random_color(): Generates a random color for the walker's animation.
+```
+```bash
 get_weather_forecast(): Fetches and displays the weather forecast using the OpenWeather API.
+```
+```bash
 update_datetime(): Updates the displayed date and time every second.
+```
+```bash
 move_walker(): Controls the random walker animation within screen boundaries.
 ```
+
 ## Contributing
 Feel free to fork this repository, submit issues, or make pull requests if you have ideas for enhancements.
 
