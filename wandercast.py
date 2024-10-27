@@ -6,7 +6,7 @@ import requests
 from datetime import datetime
 
 # OpenWeather API settings
-API_KEY = "1e05151810835b62f601c56223000cc6"  # Replace with your OpenWeather API key
+API_KEY = "YOUR_API_KEY"  # Replace with your OpenWeather API key
 CITY = "Stockholm"  # Replace with your city
 URL = f"http://api.openweathermap.org/data/2.5/forecast?q={CITY}&appid={API_KEY}&units=metric"
 
