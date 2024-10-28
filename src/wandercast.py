@@ -1,9 +1,7 @@
 import tkinter as tk
-from tkinter import ttk
 import random
 import time
 import requests
-from datetime import datetime
 
 # OpenWeather API settings
 API_KEY = "YOUR_API_KEY"  # Replace with your OpenWeather API key
@@ -56,12 +54,12 @@ def get_weather_forecast():
 
 
 # Fullscreen toggle functions
-def toggle_fullscreen(event=None):
+def toggle_fullscreen():
     root.attributes('-fullscreen', True)
     root.bind('<Escape>', end_fullscreen)
 
 
-def end_fullscreen(event=None):
+def end_fullscreen():
     root.attributes('-fullscreen', False)
     root.bind('<F11>', toggle_fullscreen)
 
@@ -137,6 +135,7 @@ def move_walker():
 
     # Call this function again after a short delay
     root.after(WALKER_SPEED, move_walker)
+
 
 # Start functions and Tkinter main loop
 move_walker()
