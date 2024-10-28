@@ -66,7 +66,7 @@ def end_fullscreen():
 
 # Initialize main window
 root = tk.Tk()
-root.title("Random Walker with Date, Time, and Weather")
+root.title("Wandercast")
 root.attributes('-fullscreen', True)
 root.bind('<Escape>', end_fullscreen)
 
