@@ -7,7 +7,6 @@ class Weather:
     def __init__(self, tk_canvas: tkinter.Canvas, city: str):
         load_dotenv()
         self.API_KEY = os.getenv("API_KEY")
-        print(self.API_KEY)
         self.WINDOW = tk_canvas
         self.CITY = city
         self.URL = f"http://api.openweathermap.org/data/2.5/forecast?q={self.CITY}&appid={self.API_KEY}&units=metric"
