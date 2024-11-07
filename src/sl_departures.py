@@ -24,3 +24,7 @@ classs Departure:
 
 			if response.status_code == 200:
 				self.WINDOW.delete("Departures"
+
+
+
+#JUST JUSTING TESTING
