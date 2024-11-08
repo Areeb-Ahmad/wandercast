@@ -2,11 +2,9 @@
 
 import requests
 import os
-import dotenv
-from dotenv import load_dotenv
 import tkinter
 
-classs Departure:
+class Departure:
 	def __init__(self,tk_canvas:tkinter.Canvas, city:str):
 		load_dotenv()
 		self.API_KEY = os.getenv("SL_API_KEY")
@@ -23,8 +21,7 @@ classs Departure:
 			data = response.json()
 
 			if response.status_code == 200:
-				self.WINDOW.delete("Departures"
+				self.WINDOW.delete("Departures")
 
 
-
-#JUST JUSTING TESTING
+#JUST TESTING
